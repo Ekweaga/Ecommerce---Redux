@@ -18,7 +18,7 @@ function Menu() {
            </div>
            <div className='item-foot-desc'>
              <span className='foot-desc-price'>#{item.price}</span>
-            <Buttonaddremove quantity={40}/>
+            <Buttonaddremove quantity={0}/>
            </div>
       </div>
    )

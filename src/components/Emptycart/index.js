@@ -8,7 +8,7 @@ function EmptyCart() {
     const history = useHistory();
   return (
     <div className="emptyCart" >
-              <h1>
+              <h1 style={{marginTop:'85px'}}>
                 Empty Cart
               </h1>
             <img src={img}/>

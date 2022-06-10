@@ -1,6 +1,6 @@
 import { CartActionTypes } from "./cartactiontypes"
 import { addItemToCart } from "./cartutils"
-import { removeItemToCart } from "./cartutils"
+import { removeItemFromCart } from "./cartutils"
 
 
 
@@ -8,6 +8,8 @@ import { removeItemToCart } from "./cartutils"
 const INITIAL_STATE = {
     cartItems:[]
 }
+
+
 const cartReducer = (state = INITIAL_STATE, action)=>{
 switch(action.type){
     case CartActionTypes.CART_ADD_ITEM:
@@ -18,7 +20,7 @@ switch(action.type){
         case CartActionTypes.CART_REMOVE_ITEM:
             return {
                 ...state,
-                cartItems:removeItemToCart(state.cartItems,action.payload)
+                cartItems:removeItemFromCart(state.cartItems,action.payload)
             }
             default:
                 return state;

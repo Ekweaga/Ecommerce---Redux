@@ -31,7 +31,7 @@ export const DataItem=
         price:18000,
         quantity:0,
         name:"White sauce pasta",
-        desc:"Burger is ivngnieg fnejrgnirirffef ndfeenfeifjefodmvofwkpfwflf dnfiji"
+        desc:"Spicey with garlic and then deep fried to crispy perfection"
       },
       {
         id:5,
@@ -122,7 +122,7 @@ export const DataItem=
         desc:"Spicey with garlic and then deep fried to crispy perfection"
       },
       {
-        id:15,
+        id:16,
         image:'/images/f13.jpeg',
         price:25000,
         quantity:0,

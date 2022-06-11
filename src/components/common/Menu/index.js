@@ -10,7 +10,7 @@ const Menu = forwardRef(({list},ref) => {
  
  return(
     <main ref={ref}>
-    {DataItem.map((item)=>{
+    {list.map((item)=>{
     return ( 
     <MenuItem item={item} key={item.id}/>
    )

@@ -24,14 +24,10 @@ function Cart({cartCount, cartList,cartTotal}) {
         <div style={{ borderBottom: '2px solid red', marginTop: '50px', marginBottom: '50px', width: '100%', maxWidth: '600px' }}>
           <h1>Your Cart</h1>
         </div>
-        <section>
+       
         
-       { cartList.map((cartlist)=>{
-        return ( 
-          <CartItem cartlist={cartlist}/>
-         )}
-       )}
-       </section>
+      <Menu list={cartList}/>
+      
         
       </div>
       <div style={{ borderTop: '2px solid red', marginTop: '50px', marginBottom: '50px', width: '100%' }}>

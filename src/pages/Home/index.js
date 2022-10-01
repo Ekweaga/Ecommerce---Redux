@@ -9,7 +9,7 @@ function Home() {
 
   const menuRef = useRef();
 
-  const handleScrollMenu = ()=>menuRef.current.scrollIntoView({behavior:'smoothh'})
+  const handleScrollMenu = ()=>menuRef.current.scrollIntoView({behavior:'smooth'})
 
   
 
@@ -22,7 +22,7 @@ function Home() {
       {/*Footer*/}
       <Footer />
        {/*Cart count button*/}
-       <CartButton/>
+      
     </div>
   )
 }

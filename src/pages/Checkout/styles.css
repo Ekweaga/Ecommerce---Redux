@@ -1,0 +1,46 @@
+.checkout{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.checkout h1{
+    text-align: center;
+    margin:10px;
+}
+.checkout p{
+    text-align: center;
+}
+.checkout div{
+    margin-top:20px;
+}
+.checkout button{
+    width:200px;
+    color:rgb(255, 255, 255);
+   
+    background-color: crimson;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 1.5rem;
+    outline: none;
+    border:none;
+    font-size: 1rem;
+    border-bottom-left-radius: 26px;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    cursor: pointer;
+    margin-top:2.5rem;
+
+}
+.checkout .count{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+b{
+    font-size:24px;
+}

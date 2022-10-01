@@ -2,8 +2,8 @@ import React from 'react'
 
 function Logo() {
   return (
-    <div><h1 style={{color:'crimson',marginTop:'20px',fontSize:'18px'}}>
-        E-Redux
+    <div><h1>
+       <span className='text-[#FB9333]'>JAI</span> -SALAD
         </h1></div>
   )
 }
